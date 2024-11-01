@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "lib/dbConnect.js", "pages/api/connection.js", "models/userSchema.js", "pages/api/createAccount.js"],
   "exclude": ["node_modules"]
 }
